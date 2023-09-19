@@ -1,0 +1,45 @@
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    margin: 50px;
+    animation: animat_square 6s infinite linear;
+    /* animation-name: animat_square;
+    animation-duration: 6s; 
+    animation-timing-function: infinite; 
+    animation-direction: linear;  */
+}
+/*
+@keyframes animat_square {
+    0% {
+        margin-left: 50px;
+    }
+    20% {
+        margin-top: 300px;
+    }
+    100% {
+        margin-left: 400px;
+    }
+}
+*/
+.wrap {
+    width: 100%;
+    border-bottom: 2px solid green;
+}
+.cat {
+    width: 150px;
+    height: 150px;
+    background-image: url('free-icon-cat-5833282.png');
+    background-size: cover;
+    margin-left: 800px;
+    animation: animat_cat 6s infinite linear;
+
+}
+@keyframes animat_cat {
+    0% {
+        margin-left: 800px;
+    }
+    100% {
+        margin-left: 50px;
+    }
+}
